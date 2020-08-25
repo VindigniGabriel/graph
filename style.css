@@ -1,0 +1,338 @@
+/*
+	Styles for "The Global Balance and Flow of Top AI Research Talent" (June 2020)
+*/
+
+/* GLOBAL AI TALENT STYLES */
+
+.ai-talent { 
+	font-family: 'Lora'; 
+	color: #333; 
+	padding-bottom: 180px;
+}
+.ai-talent a { color: #0049c5; transition: opacity .4s ease-in-out;}
+.ai-talent a:hover { opacity: .8; color: #0049c5; }
+.page-template-ai-talent-landing-template .ai-talent h2, .page-template-ai-talent-breakout-template .ai-talent h2 {
+	color: #333;
+	font-family: 'Lora';
+	font-size: 26px;
+	font-weight: 600;
+	text-align: center;
+	margin-bottom: 5vh;
+}
+.ai-talent p { 
+	font-size: 18px; 
+	line-height: 1.8em; 
+}
+.ai-talent h1 { 
+	color: #333; 
+	font-family: 'Lora'; 
+	font-weight: 700;
+	font-size: 50px; 
+	line-height: 1.2em; 
+	margin-bottom: 1em;
+}
+.ai-talent-key-takeaways {
+	
+}
+.ai-talent-key-takeaways ol {
+	float: none;
+	display: block;
+	padding-left: 15px;
+	margin: 0 auto;
+	font-size: 20px;
+	line-height: 1.4em;
+}
+.ai-talent-chart, .ai-talent-chart-container .note, .note, .chart {
+	width: 100%;
+	margin: 0 auto;
+}
+.ai-talent-chart-container:nth-of-type(odd) {
+	padding-right: 30px;
+}
+.ai-talent-chart-container:nth-of-type(even) {
+	padding-left: 30px;
+}
+.ai-talent-chart-container .question { 
+	text-align: left; 
+	font-family: 'Lora';
+	font-weight: 600; 
+	font-size: 20px;
+	line-height: 1.4em;
+}
+.ai-talent-chart-container img { width: 100%; }
+.ai-talent-chart-container .note, .note {
+	display: block;
+    margin: 2vh auto 0 auto;
+	font-style: italic;
+	font-size: 16px;
+	line-height: 1.2em;
+}
+@media screen and (max-width:768px) {
+	.ai-talent { padding-bottom: 80px; }
+	.ai-talent .section-main { padding: 60px 0; }
+	.ai-talent h1 { font-size: 40px; }
+	.page-template-ai-talent-landing-template .ai-talent h2, .page-template-ai-talent-breakout-template .ai-talent h2 { font-size: 22px; }
+	.ai-talent-key-takeaways ol { font-size: 16px; }
+	.ai-talent-chart-container {
+		padding-left: 15px !important;
+		padding-right: 15px !important;
+	}
+	.ai-talent-chart-container .question { font-size: 18px; }
+}
+/* Dig Deeper */
+#dig-deeper ul {
+	position: relative;
+	display: block;
+	width: 50%;
+	margin: 0 auto;
+}
+#dig-deeper ul li {
+	display: flex;
+	font-family: 'Lora';
+	font-weight: 600;
+	font-size: 24px;
+	margin: 0;
+	padding: 40px 0 45px 0;
+}
+#dig-deeper ul li:before { content: none; }
+#dig-deeper ul li .active-arrow { flex: 0 0 15%; }
+#dig-deeper li a { color: #333;  flex: 0 0 100%;}
+#dig-deeper li a:hover, #dig-deeper .active-dig a { color: #0049c5; }
+#dig-deeper .active-dig { display: flex; }
+#dig-deeper .active-arrow {
+	position: relative;
+	top: -8px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+#dig-deeper .active-dig img { 
+	transition: width .4s ease-in-out;
+}
+#dig-deeper hr {
+    position: relative;
+	margin: 0;
+	border-color: #ccc;
+	border-top-width: 2px;
+}
+@media screen and (max-width:768px) {
+	#dig-deeper ul { width: 70%; }
+	#dig-deeper ul li { font-size: 18px; padding: 20px 0; }
+	#dig-deeper ul li a { display: inline-block; height: 100%; }
+	#dig-deeper .link-text { margin-left: 0; }
+	#dig-deeper .active-arrow { left: 0; padding-right: 10px; }
+	#dig-deeper .active-arrow + .link-text  { padding-right: 0; margin-left: -42px; }
+}
+
+
+/* LANDING PAGE */
+.ai-talent.landing .page-content { padding-top: 140px; }
+.ai-talent .network-hero-container { 
+	display: inline-block; 
+	margin: 0 auto; 
+	width: 120%;
+    position: relative;
+    left: -15%;
+    margin-bottom: -20%;
+}
+.ai-talent .network-hero-container img { width: 100%; }
+.ai-talent.landing .hero-section p, .ai-talent.breakout .ai-breakout-intro p { 
+	font-weight: 500; 
+	font-size: 20px; 
+	line-height: 1.4em;
+}
+.ai-talent .hero-section .hero-content {
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.ai-talent-key-takeaways.section-main h2 { text-align: left; }
+.ai-talent-chart-section .row:last-of-type { display: flex; justify-content: center; }
+
+#spinoff-graphs h2 { margin-bottom: 10vh; }
+#spinoff-graphs p.intro { margin-bottom: 15vh; }
+#spinoff-graphs .row {
+	margin: 5vh 0 18vh 0;
+}
+#spinoff-graphs .row:first-of-type {
+	margin-top: 0;
+}
+#spinoff-graphs .row:last-of-type {
+	margin-bottom: 0;
+}
+@media screen and (max-width:768px) { 
+	.ai-talent.landing .page-content { padding-top: 100px; }
+	.ai-talent.landing .network-hero-container { width: 100%; left: 0; }
+	.ai-talent-chart-section .row:last-of-type {
+		flex-wrap: wrap; 
+		flex: 0 0 100%; 
+	}
+	.ai-talent-chart-container { margin-bottom: 10vh; }
+	.chart-row:last-of-type .ai-talent-chart-container:last-of-type { margin-bottom: 0; }
+	.ai-talent-chart-container.note {
+		margin-top: 0;
+	}
+	#spinoff-graphs h2 { margin-bottom: 5vh; }
+	#spinoff-graphs p.intro { font-size: 16px; line-height: 1.5em;  margin-bottom: 5vh;}
+	#spinoff-graphs .row.chart-row { margin: 0; }
+}
+
+/* Particle Sankey */
+#sankey-container #ai-talent-sankey {
+	position: relative;
+	height: 100vh;
+}
+@media screen and (min-width:1100px) {
+	#sankey-container {  }
+	#sankey-container .container { width: 90vw; max-width: 1400px; }
+}
+.hidden { display: none; opacity: 0; }
+body { font-family: 'Avenir Medium'; }
+svg {
+	display: block;
+	margin: 0 auto;
+	z-index: 99;
+	/*transform: rotate(-90deg) translate(-100px,0);*/
+}
+.svg-element, .particle-container { position: absolute; }
+#column-heading-container { display: flex; justify-content: space-between; margin: 0 9vw; }
+.column-heading { font-family: 'Avenir Medium'; text-transform: uppercase; }
+.node rect {
+  cursor: pointer;
+  fill-opacity: .9;
+  shape-rendering: crispEdges;
+}
+.node text {
+  pointer-events: none;
+  fill: #333;
+  font-family: 'Avenir Medium';
+  font-size: 16px;
+  text-transform: uppercase;
+  /*transform: rotate(-90deg) translate(-210px,-92px);*/
+}
+.link, .temp-link {
+  fill: none;
+  stroke: #000;
+  stroke-opacity: .1;
+  outline-style: none;
+}
+.link.active, .temp-link:hover, .link:hover  {
+	stroke-opacity: 0.2;
+	transition: stroke-opacity .4s, display .4s, opacity .4s;
+}
+.tippy-content { 
+	font-family: 'Avenir Medium'; 
+	font-size: 16px;
+	line-height: 1.3em;
+	padding: 15px !important;
+}
+.tippy-content .bold { font-family: 'Avenir Black'; }
+.tippy-content .bigger { font-size: 16px; }
+.tippy-box {
+	background: rgba(51,51,51,.8);
+	opacity: 1 !important;
+}
+.tippy-arrow {
+	background: transparent;
+	color: transparent;
+	border-color: transparent;
+}
+.tippy-arrow:before {
+	color: rgba(51,51,51,.8);
+}
+#sankey-column-label-container {
+	display: flex;
+	justify-content: space-between;
+	min-height: 40px;
+}
+#sankey-column-label-container .column-label {
+	position: relative;
+	font-family: 'Lato';
+	font-weight: 600;
+    color: #333;
+    text-transform: uppercase;
+    font-size: 15px;
+    line-height: 1.5em;
+}
+#sankey-column-label-container .column-label.level1 { top: 15px; left: -25px; }
+#sankey-column-label-container .column-label.level2 { top: 30px; left: -22px; }
+#sankey-column-label-container .column-label.level3 { top: 115px; left: 12px; }
+#controls { 
+	position: relative;
+	display: flex; 
+	justify-content: flex-end; 
+	font-size: 12px;
+	z-index: 999;
+	margin-top: 10vh;
+}
+#controls .control {
+	border: 1px solid rgba(51,51,51,.5);
+	padding: 8px;
+	cursor: pointer;
+	width: 100px;
+	text-align: center;
+	font-family: 'Avenir Medium';
+}
+#controls .control:last-of-type { margin-left: 25px; }
+.sankey-note {
+	font-size: 16px;
+	line-height: 1.2em;
+}
+.sankey-note p {
+	font-size: 16px;
+	line-height: 1.2em;
+}
+#naUndergrad, #naGrad { display: none; opacity: 0; width: 0; height: 0; }
+@media screen and (max-width: 768px) {
+	.ai-talent.landing .hero-section p, .ai-talent.breakout .ai-breakout-intro p { font-size: 16px; }
+	.node text {
+		font-size: 10px;
+	}
+	#controls { margin-bottom: 15px; }
+	#controls .control { padding: 2px; font-size: 10px; }
+	#controls .control:last-of-type { margin-left: 10px; }
+	#sankey-column-label-container .column-label { font-size: 8px; }
+	#sankey-column-label-container .column-label.level1 { top: 25px; left: 0; }
+	#sankey-column-label-container .column-label.level2 { top: 53px; left: -14px; }
+	#sankey-column-label-container .column-label.level3 { top: 107px; left: -5px; }
+	.sankey-note { margin-top: -50px; }
+	.sankey-note p { font-size: 14px; }
+}
+@media screen and (max-width: 768px) {
+	#sankey-column-label-container .column-label.level2 { top: 24px; }
+	#sankey-column-label-container .column-label.level3 { left: 8px; }
+}
+#phd-chart-section h2 span { display: block; font-size: 18px; }
+
+
+/* BREAKOUT PAGES */
+.ai-talent.breakout h1 {
+	margin-top: 5vh;
+}
+.ai-breakout-intro { margin-bottom: 5vh; }
+.breakout-row { display: flex; }
+.breakout-row .chartsplanation-container { flex: 0 0 55%; }
+.breakout-row .textplanation-container { flex: 0 0 45%; }
+.chartsplanation-container img { width: 90%; }
+.textplanation-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.chartsplanation-container .chart-title {
+	font-family: 'Lora';
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 1.4em;
+	text-align: left;
+}
+
+.textplanation-container .textplanation p {
+	font-size: 20px;
+	line-height: 1.4em;
+}
+
+@media screen and (max-width: 768px) {
+	.breakout-row { display: block; }
+	.breakout-row .chartsplanation-container { margin-bottom: 50px; }
+}
